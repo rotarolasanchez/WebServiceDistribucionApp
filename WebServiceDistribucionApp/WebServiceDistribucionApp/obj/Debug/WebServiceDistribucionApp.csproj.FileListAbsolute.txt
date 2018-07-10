@@ -22,3 +22,11 @@ C:\Users\rotarola\Documents\Visual Studio 2017\Projects\WebServiceDistribucionAp
 C:\Users\rotarola\Documents\Visual Studio 2017\Projects\WebServiceDistribucionApp\WebServiceDistribucionApp\obj\Debug\WebServiceDistribucionApp.csproj.CoreCompileInputs.cache
 C:\Users\rotarola\Documents\Visual Studio 2017\Projects\WebServiceDistribucionApp\WebServiceDistribucionApp\obj\Debug\WebServiceDistribucionApp.dll
 C:\Users\rotarola\Documents\Visual Studio 2017\Projects\WebServiceDistribucionApp\WebServiceDistribucionApp\obj\Debug\WebServiceDistribucionApp.pdb
+C:\Users\Shopper\Documents\GitHub\WebServiceDistribucionApp\WebServiceDistribucionApp\WebServiceDistribucionApp\bin\WebServiceDistribucionApp.dll.config
+C:\Users\Shopper\Documents\GitHub\WebServiceDistribucionApp\WebServiceDistribucionApp\WebServiceDistribucionApp\bin\WebServiceDistribucionApp.dll
+C:\Users\Shopper\Documents\GitHub\WebServiceDistribucionApp\WebServiceDistribucionApp\WebServiceDistribucionApp\bin\WebServiceDistribucionApp.pdb
+C:\Users\Shopper\Documents\GitHub\WebServiceDistribucionApp\WebServiceDistribucionApp\WebServiceDistribucionApp\bin\Newtonsoft.Json.dll
+C:\Users\Shopper\Documents\GitHub\WebServiceDistribucionApp\WebServiceDistribucionApp\WebServiceDistribucionApp\obj\Debug\WebServiceDistribucionApp.csprojResolveAssemblyReference.cache
+C:\Users\Shopper\Documents\GitHub\WebServiceDistribucionApp\WebServiceDistribucionApp\WebServiceDistribucionApp\obj\Debug\WebServiceDistribucionApp.csproj.CoreCompileInputs.cache
+C:\Users\Shopper\Documents\GitHub\WebServiceDistribucionApp\WebServiceDistribucionApp\WebServiceDistribucionApp\obj\Debug\WebServiceDistribucionApp.dll
+C:\Users\Shopper\Documents\GitHub\WebServiceDistribucionApp\WebServiceDistribucionApp\WebServiceDistribucionApp\obj\Debug\WebServiceDistribucionApp.pdb

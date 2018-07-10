@@ -268,6 +268,7 @@ namespace WebServiceDistribucionApp
             return Despachos;
 
         }
+        
         public int InsertarDespachoOrdenado
             (
             String Company, 
@@ -337,6 +338,50 @@ namespace WebServiceDistribucionApp
                 cmd.Parameters.AddWithValue("@State",State);
                 cmd.Parameters.AddWithValue("@LegalNumber", LegalNumber);
                 cmd.Parameters.AddWithValue("@PackNum", PackNum);
+                cmd.CommandType = CommandType.StoredProcedure;
+                SqlDataReader reader = cmd.ExecuteReader();
+                resultado = 1;
+            }
+
+
+            catch (Exception ex)
+            {
+                //System.Windows.Forms.MessageBox.Show(ex.Message);
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                cn.Close();
+            }
+
+
+            return resultado;
+        }
+        [WebMethod]
+        public int InsertarTracking
+            (
+            String Company,
+            String SalesRepCode,
+            String Latitude_c,
+            String Longitude_c,
+            String Date,
+            String Time)
+        {
+            int resultado = 0;
+
+            SqlCommand cmd;
+            SqlConnection cn = Conexion.cnxdistribucion();
+
+            JavaScriptSerializer javaScripSerializer = new JavaScriptSerializer();
+            try
+            {
+                cmd = new SqlCommand("USP_WS_Insertar_Tracking_Chofer", cn);
+                cmd.Parameters.AddWithValue("@Company", Company);
+                cmd.Parameters.AddWithValue("@SalesRepCode", SalesRepCode);
+                cmd.Parameters.AddWithValue("@Latitude_c", Latitude_c);
+                cmd.Parameters.AddWithValue("@Longitude_c", Longitude_c);
+                cmd.Parameters.AddWithValue("@Date", Date);
+                cmd.Parameters.AddWithValue("@Time", Time);
                 cmd.CommandType = CommandType.StoredProcedure;
                 SqlDataReader reader = cmd.ExecuteReader();
                 resultado = 1;
